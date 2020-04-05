@@ -1,6 +1,6 @@
 import React , {Component} from 'react'
 
-
+// explains click event in class component and change the state
 class Message extends Component {
     constructor() {
         super()
