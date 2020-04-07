@@ -9,7 +9,7 @@ import LifeCycleB from './LifeCycleB'
               userName : ''
          }
      }
-     static getDerivedStateFromPros(props, state){
+     static getDerivedStateFromProps(props, state){
         console.log('LifeCycle A getDerivedStateFromProps')
         return null
      }

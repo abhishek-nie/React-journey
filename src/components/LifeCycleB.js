@@ -8,7 +8,7 @@ import React, { Component } from 'react'
               userName : ''
          }
      }
-     static getDerivedStateFromPros(props, state){
+     static getDerivedStateFromProps(props, state){
         console.log('LifeCycle B getDerivedStateFromProps')
         return null
      }
